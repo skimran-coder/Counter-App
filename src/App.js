@@ -45,7 +45,7 @@ function App() {
 
       <div className="flex bg-[#fff] gap-10 justify-center items-center  py-3 text-[#494747]">
 
-        <button className="border-r-2 px-8 text-lg text-[50px] justify-center items-center" onClick={decrementHandler}>-</button>
+        <button className="border-r-2 px-8 text-2xl text-[50px] justify-center items-center" onClick={decrementHandler}>-</button>
         <div className="text-2xl text-[25px] justify-center items-center">{counter}</div>
         <button className="border-l-2 px-8 text-2xl text-[30px] justify-center items-center" onClick={incrementHandler}>+ </button>
 
