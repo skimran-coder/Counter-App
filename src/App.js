@@ -43,7 +43,7 @@ function App() {
     <div className="bg-[#344151] w-[100vw] h-[100vh] flex flex-col justify-center items-center gap-10 font-semibold">
       <p className="text-[#34AEE6] text-md text-2xl">Increment & Decrement</p>
 
-      <div className="flex bg-[#fff] gap-10 justify-center items-center  py-3 text-[#494747]">
+      <div className="flex bg-[#fff] gap-10 justify-center items-center  py-3 text-[#494747] rounded-sm">
 
         <button className="border-r-2 px-8 text-2xl text-[50px] justify-center items-center" onClick={decrementHandler}>-</button>
         <div className="text-2xl text-[25px] justify-center items-center">{counter}</div>
@@ -51,7 +51,7 @@ function App() {
 
       </div>
 
-      <button className="bg-sky-500 text-[#eae5e5] px-4 py-2 hover:bg-sky-700 transition-all duration-150" onClick={resetHandler}>Reset</button>
+      <button className="bg-sky-500 text-[#eae5e5] px-6 py-2 hover:bg-sky-700 transition-all duration-150 rounded-md" onClick={resetHandler}>Reset</button>
 
       {message}
     </div>
